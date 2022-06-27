@@ -1,22 +1,17 @@
-export async function getAllPokemon(url){
+export function getPokemon({ url }) {
   return new Promise((resolve, reject) => {
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        resolve(data);
-      })
-      .catch(error => {
-        reject(error);
-      })
-  })
-  }
+      fetch(url).then(res => res.json())
+          .then(data => {
+              resolve(data)
+          })
+  });
+}
 
-  export async function getPokemon(url) {
-    return new Promise((resolve, reject) => {
-      fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        resolve(data);
-      });
-    })
-  }
+export async function getAllPokemon(url) {
+  return new Promise((resolve, reject) => {
+      fetch(url).then(res => res.json())
+          .then(data => {
+              resolve(data)
+          })
+  });
+}

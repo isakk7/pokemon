@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Card from './components/Card';
-import { getPokemon, getAllPokemon } from './services/pokemon';
+import Navbar from './Navbar';
+import Card from './Cards';
+import { getPokemon, getAllPokemon } from './pokemon';
 import './App.css';
 
 function App() {
