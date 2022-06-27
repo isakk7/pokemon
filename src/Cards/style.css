@@ -3,7 +3,7 @@ p {
 }
 
 .Card {
-    background: white;
+    background: #fc766aff ;
     border-radius: 10px;
 }
 
@@ -19,25 +19,25 @@ p {
 .Card__type {
     padding: 5px 10px;
     margin: 10px 10px 10px 0;
-    border-radius: 5px;
-    background: cyan;
-    color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .Card__name {
     text-align: center;
     text-transform: capitalize;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .Card__info {
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .Card__data {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    color: rgb(21, 21, 21);
 }
 
 .Card__data .title {
-    font-weight: 700;
+    font-weight: 800; 
 }
